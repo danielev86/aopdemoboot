@@ -1,4 +1,4 @@
-package com.danielev86.aopdemoboot.service.interceptor.annotation;
+package com.danielev86.aopdemoboot.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

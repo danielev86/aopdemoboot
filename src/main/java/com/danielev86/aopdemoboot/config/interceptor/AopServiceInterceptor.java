@@ -1,4 +1,4 @@
-package com.danielev86.aopdemoboot.service.interceptor;
+package com.danielev86.aopdemoboot.config.interceptor;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
