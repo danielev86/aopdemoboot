@@ -18,7 +18,6 @@ public class ProductController {
 	@Autowired
 	private IProductService productService;
 	
-	
 	@RequestMapping(value = "/getAllProducts", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public List<ProductDTO> getAllProducts(){
 		return productService.getAllProducts();
