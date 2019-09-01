@@ -11,12 +11,12 @@ import com.danielev86.aopdemoboot.service.mock.ProductSerciveMock;
 
 @Service
 public class ProductServiceImpl implements IProductService {
-	
+
 	@Autowired
 	private ProductSerciveMock productServiceMock;
-	
-	public List<ProductDTO> getAllProducts(){
+
+	public List<ProductDTO> getAllProducts() {
 		return productServiceMock.getAllProducts();
 	}
-	
+
 }

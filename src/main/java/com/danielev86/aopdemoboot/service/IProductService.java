@@ -7,5 +7,5 @@ import com.danielev86.aopdemoboot.provider.bean.ProductDTO;
 public interface IProductService {
 
 	public List<ProductDTO> getAllProducts();
-	
+
 }
